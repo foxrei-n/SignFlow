@@ -31,6 +31,12 @@ Sign Language Generation (SLG) has received increasing attention in recent years
 ## Visualization
 
 
+To visualize generated sign motions, run:
+
+```bash
+python vis_csl.py --chkpt-path logs/CFM_CSL/train_step_300000/chkpt.pth
+
+
 ## Acknowledgements
 
 We gratefully acknowledge the authors and maintainers of the open-source repositories, datasets, and tools that made this work possible.

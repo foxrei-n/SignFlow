@@ -12,7 +12,7 @@ from .rotation_utils import axis_angle_to_rotation_6d
 import pandas as pd
 from loguru import logger
 
-PROCESSED_DATA_PATH = Path('./data/train')
+PROCESSED_DATA_PATH = Path('./data/train_data.pkl')
 device = 'cuda' if th.cuda.is_available() else 'cpu'
 
 tokenizer = MBartTokenizer.from_pretrained("facebook/mbart-large-cc25", src_lang="zh_CN") 
@@ -85,7 +85,7 @@ class Stats:
         self.x_mu = th.from_numpy(stats['x_mu']).float().to(device)
         self.x_sd = th.from_numpy(stats['x_sd']).float().to(device)
 
-class H2SDataset:
+class CSLDataset:
     def __init__(self, split: str):
         data_filepath = get_data_filepath(split)
         text_feat_filepath = PROCESSED_DATA_PATH / f'{split}_text_features.pkl'

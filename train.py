@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from loguru import logger
 from modules.reproduce_utils import seed_everything
-from modules.dataset_csl import H2SDataset, Stats, custom_collate_fn
+from modules.dataset_csl import CSLDataset, Stats, custom_collate_fn
 from modules.model_utils import check_grad_and_clip_, count_params
 from modules.tensor_utils import normalize
 from modules.fm import FlowMatchingModel
@@ -93,8 +93,8 @@ def main():
             ff_dropout=args.ff_dropout,
         )
     )
-    dataset = H2SDataset('train')
-    val_dataset = H2SDataset('val')
+    dataset = CSLDataset('train')
+    val_dataset = CSLDataset('val')
     stats = Stats()
     cfg['model']['x_dim'] = stats.x_mu.shape[0]
     with open(str(log_dirpath / 'cfg.json'), 'w', encoding='utf-8') as fp:
