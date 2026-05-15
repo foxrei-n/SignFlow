@@ -45,6 +45,13 @@ data/
 
 ## Human Models
 
+If you use SMPL-X-based pose features or mesh visualization, please download the required human body models from the official SMPL-X website.
+
+Place the model files under:
+
+```bash
+modules/smplx_models/
+```
 
 ## Training
 
