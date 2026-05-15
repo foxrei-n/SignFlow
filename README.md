@@ -1,6 +1,8 @@
 # SignFlow: End-to-End Sign Language Generation for One-to-Many Modeling using Conditional Flow Matching
 
-Official implementation for the paper **“SignFlow: End-to-End Sign Language Generation for One-to-Many Modeling using Conditional Flow Matching.”**
+Official implementation for the paper **[“SignFlow: End-to-End Sign Language Generation for One-to-Many Modeling using Conditional Flow Matching”](https://dl.acm.org/doi/full/10.1145/3716553.3750765)**.
+
+[![Paper](https://img.shields.io/badge/Paper-ACM%20ICMI%202025-blue)](https://doi.org/10.1145/3716553.3750765)
 
 <!-- Optional badges -->
 <!-- [![Paper](https://img.shields.io/badge/Paper-ACM%20ICMI%202025-blue)](#citation) -->
