@@ -61,6 +61,12 @@ To train SignFlow, run:
 python train.py --run-name CFM_CSL
 ```
 
+Checkpoints and logs will be saved under:
+
+```bash
+logs/CFM_CSL/
+```
+
 ## Visualization
 
 
@@ -69,6 +75,9 @@ To visualize generated sign motions, run:
 ```bash
 python vis_csl.py --chkpt-path logs/CFM_CSL/train_step_300000/chkpt.pth
 ```
+
+```markdown
+Please update `--chkpt-path` according to the location of your trained checkpoint.
 
 
 ## Acknowledgements
