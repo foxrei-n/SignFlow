@@ -40,10 +40,11 @@ If you find this repository useful, please cite our paper:
 
 ```bibtex
 @inproceedings{khan2025signflow,
-  title     = {SignFlow: End-to-End Sign Language Generation for One-to-Many Modeling using Conditional Flow Matching},
-  author    = {Khan, Nabeela and others},
-  booktitle = {Proceedings of the ACM International Conference on Multimodal Interaction},
-  year      = {2025}
+  title={SignFlow: End-to-End Sign Language Generation for One-to-Many Modeling using Conditional Flow Matching},
+  author={Khan, Nabeela and Wu, Bowen and Tan, Sihan and Ishi, Carlos Toshinori and Nakadai, Kazuhiro},
+  booktitle={Proceedings of the 27th International Conference on Multimodal Interaction},
+  pages={173--180},
+  year={2025}
 }
 ```
 
