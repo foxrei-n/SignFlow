@@ -25,7 +25,7 @@ Please download the CSL-Daily data from the official SOKE project page:
 
 [SOKE Project Page](https://2000zrl.github.io/soke/)
 
-After downloading the data, organize it as follows:
+<!-- After downloading the data, organize it as follows:
 
 ```bash
 data/
@@ -33,7 +33,7 @@ data/
     ├── train_data.pkl
     ├── dev_data.pkl
     └── test_data.pkl
-```
+``` -->
 
 ## Human Models
 
