@@ -19,11 +19,8 @@ Sign Language Generation (SLG) has received increasing attention in recent years
 
 ## Data
 
-## Models
+## Human Models
 
-### Human Models
-
-### Text Encoder
 
 ## Training
 
