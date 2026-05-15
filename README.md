@@ -78,7 +78,7 @@ python vis_csl.py --chkpt-path logs/CFM_CSL/train_step_300000/chkpt.pth
 
 ```markdown
 Please update `--chkpt-path` according to the location of your trained checkpoint.
-
+```
 
 ## Acknowledgements
 
