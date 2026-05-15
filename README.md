@@ -33,6 +33,16 @@ Sign Language Generation (SLG) has received increasing attention in recent years
 
 ## Acknowledgements
 
+We gratefully acknowledge the authors and maintainers of the open-source repositories, datasets, and tools that made this work possible.
+
+Parts of this repository were developed with reference to the following public codebases:
+
+- [SOKE](https://github.com/2000ZRL/SOKE)
+- [Conditional Flow Matching](https://github.com/atong01/conditional-flow-matching)
+- [SMPL-X](https://github.com/vchoutas/smplx)
+
+We thank the original authors for making their code publicly available. If you use components from these repositories, please also follow their respective licenses and citation requirements.
+
 
 ## Citation
 
