@@ -104,6 +104,3 @@ If you find this repository useful, please cite our paper:
   year={2025}
 }
 ```
-
-
-THIS REPO IS STILL UNDER CONSTRUCTION.... PLEASE STAY TUNED...
