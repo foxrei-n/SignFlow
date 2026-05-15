@@ -12,7 +12,7 @@ from .rotation_utils import axis_angle_to_rotation_6d
 import pandas as pd
 from loguru import logger
 
-PROCESSED_DATA_PATH = Path('./data/train_data.pkl')
+PROCESSED_DATA_PATH = Path('./data/CSL-Daily/train_data.pkl')
 device = 'cuda' if th.cuda.is_available() else 'cpu'
 
 tokenizer = MBartTokenizer.from_pretrained("facebook/mbart-large-cc25", src_lang="zh_CN") 

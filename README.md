@@ -19,6 +19,22 @@ Sign Language Generation (SLG) has received increasing attention in recent years
 
 ## Data
 
+We use the processed sign language data released by the authors of [**SOKE**](https://arxiv.org/pdf/2411.17799).
+
+Please download the CSL-Daily data from the official SOKE project page:
+
+[SOKE Project Page](https://2000zrl.github.io/soke/)
+
+After downloading the data, organize it as follows:
+
+```bash
+data/
+└── CSL-Daily/
+    ├── train_data.pkl
+    ├── dev_data.pkl
+    ├── test_data.pkl
+```
+
 ## Human Models
 
 
