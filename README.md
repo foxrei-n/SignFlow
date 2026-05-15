@@ -27,6 +27,11 @@ Sign Language Generation (SLG) has received increasing attention in recent years
 
 ## Training
 
+To train SignFlow, run:
+
+```bash
+python train.py --run-name CFM_CSL
+```
 
 ## Visualization
 
