@@ -32,7 +32,7 @@ data/
 └── CSL-Daily/
     ├── train_data.pkl
     ├── dev_data.pkl
-    ├── test_data.pkl
+    └── test_data.pkl
 ```
 
 ## Human Models
