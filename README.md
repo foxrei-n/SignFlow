@@ -43,6 +43,13 @@ Parts of this repository were developed with reference to the following public c
 
 We thank the original authors for making their code publicly available. If you use components from these repositories, please also follow their respective licenses and citation requirements.
 
+## License
+
+This repository is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+
+You are free to share this repository for non-commercial purposes with proper attribution. However, modified or adapted versions may not be distributed without permission from the authors.
+
+Please see [license.txt](license.txt) for the full license text.
 
 ## Citation
 
