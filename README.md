@@ -17,6 +17,14 @@ Sign Language Generation (SLG) has received increasing attention in recent years
 
 ## Environment
 
+Please create the environment and install the required packages:
+
+```bash
+conda create -n signflow python=3.11
+conda activate signflow
+pip install -r requirements.txt
+```
+
 ## Data
 
 We use the processed sign language data released by the authors of [**SOKE**](https://arxiv.org/pdf/2411.17799).
